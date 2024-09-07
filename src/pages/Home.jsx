@@ -1,10 +1,11 @@
-import Navbar from "../components/Navbar";
-import Slider from "../components/Slider";
+import ProductSlider from "../components/ProductSlider";
+import ThreeProducts from "../components/ThreeProduct";
 
 function Home() {
   return (
     <>
-      <Slider />
+      <ThreeProducts />
+      <ProductSlider />
     </>
   );
 }

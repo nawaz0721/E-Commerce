@@ -3,7 +3,7 @@ import Loading from "../components/Loading";
 import ProductCard from "../components/ProductCard";
 import axios from "axios";
 
-function Products() {
+function Products({ product }) {
   const [products, setproducts] = useState([]);
   const [loading, setloading] = useState(true);
 
